@@ -4,19 +4,24 @@ body {
 
 .hero-section {
     background-image: url("asset/bg-image-hero.png");
-
 }
 
 .hero-text {
     color: white;
 }
 
+.title-logo{
+    background-image: url(asset/bg-image-2.png); 
+    color: white
+}
 .logo-section {
-    background-image: url(asset/bg-image-2.png);
+    text-align: center;
 }
 
 .footer-section {
-    background-color: black; color: white;
+    background-color: black; 
+    color: white; 
+    text-align: center;
 }
 
 
