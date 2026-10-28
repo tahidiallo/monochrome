@@ -1,0 +1,22 @@
+body {
+    font-family: sans-serif;
+}
+
+.hero-section {
+    background-image: url("asset/bg-image-hero.png");
+
+}
+
+.hero-text {
+    color: white;
+}
+
+.logo-section {
+    background-image: url(asset/bg-image-2.png);
+}
+
+.footer-section {
+    background-color: black; color: white;
+}
+
+
