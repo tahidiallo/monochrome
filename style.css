@@ -8,6 +8,14 @@ body {
 
 .hero-text {
     color: white;
+    padding-left: 180px;
+    padding-right: 700px;
+}
+
+.action-button {
+    background-color: grey;
+    font: white;
+    border border-radius: 10px;
 }
 
 .title-logo{
@@ -17,11 +25,8 @@ body {
 .logo-section {
     text-align: center;
 }
-
-.footer-section {
-    background-color: black; 
+footer {
+    background-color:black;
     color: white; 
     text-align: center;
 }
-
-
