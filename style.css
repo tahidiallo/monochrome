@@ -1,11 +1,21 @@
-* {
-    border: solid 1px red;
-}
+/* * {
+    margin: 0;
+} */
 
 body {
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin: 0; */
 }
 
+.container {
+    margin: auto;
+    max-width: 800px;
+}
+
+section{
+    padding: 25px 0 48px 0;
+}
+/* HEADER */
 header{
     display: flex;
     justify-content: space-between;
@@ -13,11 +23,19 @@ header{
     padding: 10px 50px;
 }
 
-ul{
+.logo {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
     display: flex;
     list-style-type: none;
     justify-content: space-around;
-    gap: 15px;
+    gap: 30px;
     font-weight: bolder;
     padding: 0px;
 }
@@ -26,43 +44,131 @@ header a{
     text-decoration: none;
     color: black;
 }
-
-
+/* Header & nav bar done */
+/* HERO */
 .hero {
     background-image: url(asset/bg-image-hero.png);
     background-position: center;
-    height: 550px;
+    background-size: cover;
+    height: 70vh;
     color: white;
-    border: none;
-    padding-right: 800 px;
-    padding-left: 450px;
 }
 
-h1~p{
-    padding-right: 400 px;
-    padding-left: 150px;
+h1{
+    padding: 80px 390px 0px 0px;
+}
+
+h1+p{
+    padding: 0px 260px 0px 0px;
+}
+
+/* HERO DONE */
+/* SECTION LESS IS MORE */
+article>h3{
+    text-align: left;
+    font-weight: bold;
+}
+
+.article-text{
+    display: flex;
+    gap: 50px;
 }
 
 .action-button {
-    background-color: grey;
-    font: white;
-    border-radius: 10px;
+    background-color: black;
+    padding: 7px 20px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    display: block;
+    width: fit-content;
+    margin-top: auto;
 }
 
+
+/* ILS NOUS ONT FAIT CONFIANCE */
 .title-logo{
-    background-image: url(asset/bg-image-2.png); 
-    background-size: 30px;
-    color: white
+    background-image: url(asset/bg-image-2.png);
+    background-position: center;
+    color: white;
+    background-size: cover;
+    height: 70vh;
+}
+
+h2{
+    font-weight: bolder;
+    font-size: 30px;
+    /* padding: 50px 210px 0px 0px; ; */
 
 }
+
 .logo-section {
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 40px 0px 40px 0px ;
 }
+
+.black-button{
+    background-color: white;
+    padding: 7px 20px;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    display: block;
+    width: fit-content;
+    margin: auto;
+}
+
+/* SECTION DONE */
+/* SECTION PROJECT */
+
+.articlecard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+#project{
+    img{
+        width: 100%;
+    }
+    article{
+        width: 378px;
+    }
+}
+
+h2+p{
+    padding-bottom: 20px;
+}
+
+/* SECTION PROJET DONE */
+/* FOOTER */
+
 footer {
     background-color:black;
     color: white; 
     text-align: center;
-    text-decoration: none;
+    padding: 30px 0 50px 0;
 }
 
+.footer-logo {
+    height: 65px;
+}
+
+footer p {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+/* Footer done */
 
